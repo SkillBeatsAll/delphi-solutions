@@ -1,0 +1,125 @@
+object frmCalculations: TfrmCalculations
+  Left = 0
+  Top = 0
+  Caption = 'Activity'
+  ClientHeight = 222
+  ClientWidth = 243
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblHint1: TLabel
+    Left = 8
+    Top = 16
+    Width = 227
+    Height = 45
+    Caption = 'Calculations'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -37
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblHint2: TLabel
+    Left = 8
+    Top = 86
+    Width = 170
+    Height = 13
+    Caption = 'Click on a button to see the answer'
+  end
+  object lblHint3: TLabel
+    Left = 8
+    Top = 168
+    Width = 40
+    Height = 13
+    Caption = 'Answer:'
+  end
+  object btnOne: TButton
+    Left = 8
+    Top = 105
+    Width = 41
+    Height = 25
+    Caption = '1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = buttonClick
+  end
+  object btnThree: TButton
+    Left = 96
+    Top = 105
+    Width = 41
+    Height = 25
+    Caption = '3'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = buttonClick
+  end
+  object btnFour: TButton
+    Left = 141
+    Top = 105
+    Width = 41
+    Height = 25
+    Caption = '4'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = buttonClick
+  end
+  object btnTwo: TButton
+    Left = 52
+    Top = 105
+    Width = 41
+    Height = 25
+    Caption = '2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = buttonClick
+  end
+  object btnFive: TButton
+    Left = 186
+    Top = 105
+    Width = 41
+    Height = 25
+    Caption = '5'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = buttonClick
+  end
+  object edtAnswer: TEdit
+    Left = 8
+    Top = 187
+    Width = 227
+    Height = 21
+    TabOrder = 5
+  end
+end
